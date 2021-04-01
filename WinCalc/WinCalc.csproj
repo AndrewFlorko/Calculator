@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{20F1A627-4159-46E6-BCCB-F8AD55DBD4AC}</ProjectGuid>
+    <ProjectGuid>{7BC7FD47-E3BA-4420-A486-1EBCC0AC01EC}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>WinCalc</RootNamespace>
     <AssemblyName>WinCalc</AssemblyName>
@@ -77,12 +77,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\CalculatorLib\CalculatorLib.csproj">
-      <Project>{4f8a4491-607e-4f49-8583-4d5667564eec}</Project>
-      <Name>CalculatorLib</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
