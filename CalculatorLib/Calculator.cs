@@ -27,7 +27,7 @@ namespace CalculatorLib
 
         public int Mul(int a, int b)
         {
-            throw new NotImplementedException();
+            return a * a;
         }
     }
 }
